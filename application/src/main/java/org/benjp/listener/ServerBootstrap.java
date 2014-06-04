@@ -20,10 +20,10 @@
 package org.benjp.listener;
 
 import org.apache.commons.io.IOUtils;
-import org.benjp.model.SpaceBeans;
-import org.benjp.utils.ChatUtils;
-import org.benjp.utils.MessageDigester;
-import org.benjp.utils.PropertyManager;
+import org.exoplatform.addons.storage.model.SpaceBeans;
+import org.exoplatform.addons.storage.utils.ChatUtils;
+import org.exoplatform.addons.storage.utils.MessageDigester;
+import org.exoplatform.addons.storage.utils.PropertyManager;
 import org.exoplatform.portal.webui.util.Util;
 
 import javax.servlet.http.HttpServletRequest;

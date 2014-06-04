@@ -24,7 +24,7 @@ import juzu.SessionScoped;
 import juzu.View;
 import juzu.request.RenderContext;
 import juzu.template.Template;
-import org.benjp.utils.PropertyManager;
+import org.exoplatform.addons.storage.utils.PropertyManager;
 
 import javax.inject.Inject;
 import java.io.IOException;

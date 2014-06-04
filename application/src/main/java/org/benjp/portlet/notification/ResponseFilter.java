@@ -1,6 +1,6 @@
 package org.benjp.portlet.notification;
 
-import org.benjp.utils.PropertyManager;
+import org.exoplatform.addons.storage.utils.PropertyManager;
 import org.w3c.dom.Element;
 
 import javax.portlet.MimeResponse;

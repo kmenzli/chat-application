@@ -10,6 +10,20 @@
   <packaging>war</packaging>
   <name>Chat Server</name>
   <dependencies>
+      <!-- Storage API-->
+      <dependency>
+          <groupId>org.exoplatform.addons.storage</groupId>
+          <artifactId>exo-storage-api-mongodb</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.exoplatform.addons.storage</groupId>
+          <artifactId>exo-storage-api-jcr</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.exoplatform.addons.storage</groupId>
+          <artifactId>exo-storage-api-core</artifactId>
+      </dependency>
+      <!-- FIN -->
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
