@@ -152,11 +152,13 @@
                 <artifactId>juzu-plugins-upload</artifactId>
                 <version>${juzu.version}</version>
             </dependency>
+            <!-- Mongodb Drive -->
             <dependency>
                 <groupId>org.mongodb</groupId>
                 <artifactId>mongo-java-driver</artifactId>
                 <version>${mongodb-java-driver.version}</version>
             </dependency>
+            <!-- FIN -->
             <!-- Storage API-->
             <dependency>
                 <groupId>org.exoplatform.addons.storage</groupId>

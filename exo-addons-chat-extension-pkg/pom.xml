@@ -35,6 +35,44 @@
       <type>war</type>
       <scope>provided</scope>
     </dependency>
+      <!-- FIN -->
+      <!-- Mongodb Drive -->
+      <dependency>
+          <groupId>org.mongodb</groupId>
+          <artifactId>mongo-java-driver</artifactId>
+          <version>${mongodb-java-driver.version}</version>
+          <scope>provided</scope>
+      </dependency>
+      <!-- FIN -->
+      <!-- Storage API-->
+      <dependency>
+          <groupId>org.exoplatform.addons.storage</groupId>
+          <artifactId>exo-storage-api-mongodb</artifactId>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.exoplatform.addons.storage</groupId>
+          <artifactId>exo-storage-api-jcr</artifactId>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.exoplatform.addons.storage</groupId>
+          <artifactId>exo-storage-api-core</artifactId>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>de.flapdoodle.embed</groupId>
+          <artifactId>de.flapdoodle.embed.mongo</artifactId>
+          <version>1.27</version>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>de.flapdoodle.embed</groupId>
+          <artifactId>de.flapdoodle.embed.process</artifactId>
+          <version>1.25</version>
+          <scope>provided</scope>
+      </dependency>
+      <!-- FIN -->
   </dependencies>
   <build>
     <plugins>

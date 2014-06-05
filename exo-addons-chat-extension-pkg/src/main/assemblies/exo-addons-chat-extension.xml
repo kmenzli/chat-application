@@ -63,5 +63,62 @@
       <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}.${artifact.extension}</outputFileNameMapping>
       <useProjectArtifact>false</useProjectArtifact>
     </dependencySet>
+      <!-- FIN -->
+      <!-- Storage API -->
+      <dependencySet>
+          <outputDirectory>/chat/lib</outputDirectory>
+          <includes>
+              <include>org.mongodb:mongo-java-driver:jar</include>
+          </includes>
+          <scope>provided</scope>
+          <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}.${artifact.extension}</outputFileNameMapping>
+          <useProjectArtifact>false</useProjectArtifact>
+      </dependencySet>
+      <dependencySet>
+          <outputDirectory>/chat/lib</outputDirectory>
+          <includes>
+              <include>org.exoplatform.addons.storage:exo-storage-api-mongodb:jar</include>
+          </includes>
+          <scope>provided</scope>
+          <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}.${artifact.extension}</outputFileNameMapping>
+          <useProjectArtifact>false</useProjectArtifact>
+      </dependencySet>
+      <dependencySet>
+          <outputDirectory>/chat/lib</outputDirectory>
+          <includes>
+              <include>org.exoplatform.addons.storage:exo-storage-api-jcr:jar</include>
+          </includes>
+          <scope>provided</scope>
+          <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}.${artifact.extension}</outputFileNameMapping>
+          <useProjectArtifact>false</useProjectArtifact>
+      </dependencySet>
+      <dependencySet>
+          <outputDirectory>/chat/lib</outputDirectory>
+          <includes>
+              <include>org.exoplatform.addons.storage:exo-storage-api-core:jar</include>
+          </includes>
+          <scope>provided</scope>
+          <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}.${artifact.extension}</outputFileNameMapping>
+          <useProjectArtifact>false</useProjectArtifact>
+      </dependencySet>
+      <dependencySet>
+          <outputDirectory>/chat/lib</outputDirectory>
+          <includes>
+              <include>de.flapdoodle.embed:de.flapdoodle.embed.mongo:jar</include>
+          </includes>
+          <scope>provided</scope>
+          <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}.${artifact.extension}</outputFileNameMapping>
+          <useProjectArtifact>false</useProjectArtifact>
+      </dependencySet>
+      <dependencySet>
+          <outputDirectory>/chat/lib</outputDirectory>
+          <includes>
+              <include>de.flapdoodle.embed:de.flapdoodle.embed.process:jar</include>
+          </includes>
+          <scope>provided</scope>
+          <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}.${artifact.extension}</outputFileNameMapping>
+          <useProjectArtifact>false</useProjectArtifact>
+      </dependencySet>
+      <!-- FIN -->
   </dependencySets>
 </assembly>
